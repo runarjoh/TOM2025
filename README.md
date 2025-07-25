@@ -1,4 +1,5 @@
 TOM PhD Summer School 2025 · Group Project (see competition details here: https://sites.google.com/view/tomsociety/tom-initiatives/nk-competition)
+
 By Runar J. Solberg, Ali Pourentezari and Shikhar Bhardwaj
 
 The code reproduces our competition result over 100 000 random NK-landscapes (N = 10, K = 3)=~ 0.73755
