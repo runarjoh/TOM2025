@@ -106,7 +106,7 @@
             while true
                 cand = bestConfig;
                 cand(randi(n)) = 1 - cand(randi(n));
-                if ~visitedCoice(vec2int(cand)+1) || retry > n
+                if ~visitedChoice(vec2int(cand)+1) || retry > n
                     break
                 end
                 retry = retry + 1;
@@ -198,4 +198,5 @@
     perf = mean(fitness_values(sub2ind(size(fitness_values), (1:n)', nos)));
     end
     
+
 
